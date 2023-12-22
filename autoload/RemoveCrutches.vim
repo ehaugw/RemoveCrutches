@@ -1,6 +1,7 @@
 function! RemoveCrutches#NoNoob() abort
     set mouse=
     inoremap <Esc> <Nop>
+    inoremap <special> jk <ESC>
     " Remove newbie crutches in Command Mode
     " cnoremap <Left> <Nop>
     " cnoremap <Down> <Nop>
